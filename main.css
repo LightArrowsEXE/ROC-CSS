@@ -81,26 +81,49 @@ aside{
     grid-area: aside;
 }
 
+a.aside-post:link{
+    color:lightgray;
+    text-decoration: none;
+}
+
+a.aside-post:visited{
+    color:lightgray;
+    text-decoration: none;
+}
+
+a.aside-post:hover{
+    color:lightgray;
+    text-decoration: none;
+}
+
+a.aside-post:active{
+    color:lightgray;
+    text-decoration: none;
+}
+
 nav{
     grid-area: nav;
     display: inline-block;
-    a:link {
-        color: white;
-      }
-      
-    
-    a:visited {
-        color: white;
-      }
-      
-    a:hover {
-        color: white;
-      }
-      
-    
-    a:active {
-        color: white;
-      }
+}
+
+a.navlink:link{
+    color:white;
+    text-decoration: none;
+}
+
+a.navlink:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a.navlink:hover{
+    color:white;
+    text-decoration: none;
+}
+
+a.navlink:active{
+    color:white;
+    text-decoration: none;
 }
 
 .dropdown{
@@ -186,23 +209,6 @@ footer{
 .aside-post{
     color: lightgray;
     font-size: small;
-    a:link {
-        color: lightgray;
-      }
-      
-    
-    a:visited {
-        color: lightgray;
-      }
-      
-    a:hover {
-        color: lightgray;
-      }
-      
-    
-    a:active {
-        color: lightgray;
-      }
 }
 
 .center {
